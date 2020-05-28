@@ -11,56 +11,51 @@ import NoMatch from "./pages/NoMatch.js";
 function Main() {
   return (
     <div className="App">
-      <header className="App-header"> 
-        <Router>
+      <Router>
+        <header className="App-header"> 
           <NavBar>
             <NavLink
               id="title-link"
               path="/"
               text="jAndrews"
               style={{width: "90px"}}
+              key={0}
             />
             <span id="nav-spacer"> </span>
             <NavLink
               onClick={console.log("About")}
+              path={window.location.href}
               text="About"
+              key={1}
             />
             <NavLink
               path="/gallery"
               text="Gallery"
+              key={2}
             />
             <NavLink
               path="/contact"
               text="Contact"            
+              key={3}
             />
           </NavBar>
-        </Router>
-      </header>
+        </header>
 
-      <main>
-        <Router>
-          <Switch>
-            <Route exact path={["/gallery", "/portfolio", "/folio", "/projects"]}>
-              <Gallery />
-            </Route>
-            <Route exact path={["/contact", "/contactme"]}>
-              <Contact />
-            </Route>
-            <Route exact path={["/", "/home"]}>
-              <AboutMe />
-            </Route>
-            <Route path="*">
-              <NoMatch />
-            </Route>
-          </Switch>
-        </Router>
-      </main>
-      
-      <footer>
-        <Footer 
-          text="Copyright 2020 by Jonathan Andrews"
-        />
-      </footer>
+        <main>
+            <Switch>
+              <Route exact path="/gallery" component={Gallery} />
+              <Route exact path="/contact" component={Contact} />
+              <Route exact path="/" component={AboutMe} />
+              <Route path="*" component={NoMatch} />
+            </Switch>
+        </main>
+        
+        <footer>
+          <Footer 
+            text="Copyright 2020 by Jonathan Andrews"
+          />
+        </footer>
+      </Router>
     </div>
   );
 }

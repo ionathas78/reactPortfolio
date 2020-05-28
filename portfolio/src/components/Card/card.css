@@ -9,6 +9,7 @@
     border: 3px ridge #333;
     border-radius: 25px;
     overflow: hidden;
+    box-shadow: 7.5px 7.5px 5px #333;
 }
 
 .card-body {
@@ -16,6 +17,7 @@
     font-size: 20px;
     text-align: left;
     overflow: auto;
+    padding-right: 12px;
 }
 
 .card-footer {
@@ -40,6 +42,10 @@
     height: 100%;
     width: auto;
     margin: 0 20px 0 0;
+}
+
+.card:hover {
+    box-shadow: 3px 3px 2px #333;
 }
 
 @media only screen and (max-width: 600px) {

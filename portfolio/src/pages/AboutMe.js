@@ -5,7 +5,7 @@ import { Card, CardImage, CardBody, CardFooter } from "../components/Card";
 function AboutMe() {
 
     return (
-        <div className="App" style={{height: "90vh"}}>
+        <div className="AboutMe">
             <Card>
                 <CardImage 
                     id="about-me-image"
@@ -34,21 +34,21 @@ function AboutMe() {
                             href="https://github.com/ionathas78" 
                             target="_blank"
                         >   
-                            <i class="fab fa-github-square" aria-hidden="true"></i>
+                            <i className="fab fa-github-square" aria-hidden="true"></i>
                         </a>,
                         <a 
                             title="Resume" 
                             href="Assets/Images/jonathan_andrews_resume.pdf" 
                             target="_blank"
                         >
-                            <i class="far fa-file-pdf" aria-hidden="true"></i>
+                            <i className="far fa-file-pdf" aria-hidden="true"></i>
                         </a>,
                         <a 
                             title="LinkedIn Profile" 
                             href="https://www.linkedin.com/in/jonathan-andrews-24299b6/" 
                             target="_blank"
                         >   
-                            <i class="fab fa-linkedin" aria-hidden="true"></i>
+                            <i className="fab fa-linkedin" aria-hidden="true"></i>
                         </a>
                     ]}
                 />

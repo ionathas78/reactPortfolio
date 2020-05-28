@@ -19,13 +19,13 @@ function NavBar({ children }) {
 
 /**
  * Links inside Nav Bar
- * @param {Object} param0 path, isExact, text, key
+ * @param {Object} param0 path, text, key
  */
-function NavLink({ id, path, isExact, linkClass, text, key }) {
+function NavLink({ id, path, linkClass, text, key }) {
 
     return (
         <li id={id} className={(!linkClass ? "nav-link" : linkClass)} key={key}>
-           <Link exact={isExact} path={path}
+           <Link to={path}
                 className="nav-link"
             >
                 {text}
