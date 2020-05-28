@@ -1,26 +1,64 @@
 import React from 'react';
+import "./App.css";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import logo from './logo.svg';
-import './App.css';
+import { App } from './App.css';
+import { NavBar, NavLink } from "./components/NavBar";
+import Footer from "./components/Footer";
 
-function App() {
+function Main() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <Router>
+          <NavBar>
+            <NavLink
+              id="title-link"
+              path="/"
+              text="jAndrews"
+              style={{width: "90px"}}
+            />
+            <span style={{margin: "0 110px"}}> </span>
+            <NavLink
+              onClick={console.log("About")}
+              text="About"
+            />
+            <NavLink
+              path="/gallery"
+              text="Gallery"
+            />
+            <NavLink
+              path="/contact"
+              text="Contact"            
+            />
+          </NavBar>
+        </Router>
       </header>
+
+      <main>
+
+      </main>
+      
+      <footer>
+        <Footer 
+          text="Copyright 2020 by Jonathan Andrews"
+        />
+      </footer>
+      <Router>
+        <Switch>
+          <Route
+            exact path={["/gallery", "/portfolio", "/folio", "/projects"]}
+          />
+          <Route
+            exact path={["/contact", "/contactme"]}
+          />
+          <Route
+            path={["/", "/home"]}
+          />
+        </Switch>
+      </Router>
     </div>
   );
 }
 
-export default App;
+export default Main;
