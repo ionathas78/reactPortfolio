@@ -1,14 +1,17 @@
-import React from 'react';
+import { React, useState } from 'react';
 import "./App.css";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { NavBar, NavLink } from "./components/NavBar";
+import { AboutPopup } from "./components/Popup";
 import Footer from "./components/Footer";
-import AboutMe from "./pages/AboutMe.js";
-import Contact from "./pages/Contact.js";
-import Gallery from "./pages/Gallery.js";
-import NoMatch from "./pages/NoMatch.js";
+import AboutMe from "./pages/AboutMe";
+import Contact from "./pages/Contact";
+import Gallery from "./pages/Gallery";
+import NoMatch from "./pages/NoMatch";
 
 function Main() {
+  const [ aboutIsOpen, setAboutIsOpen ] = useState(false);
+
   return (
     <div className="App">
       <Router>
@@ -23,8 +26,8 @@ function Main() {
             />
             <span id="nav-spacer"> </span>
             <NavLink
-              onClick={console.log("About")}
-              path={window.location.href}
+              onClick={setAboutIsOpen(true)}
+              path=""
               text="About"
               key={1}
             />
@@ -55,6 +58,12 @@ function Main() {
             text="Copyright 2020 by Jonathan Andrews"
           />
         </footer>
+        {!aboutIsOpen ?
+          "" :
+          <AboutPopup formTitle="My React Portfolio" setOpenFunction={setAboutIsOpen}>
+              <p>&copy;2020 Jonathan Andrews</p>
+          </AboutPopup>
+        }
       </Router>
     </div>
   );

@@ -1,0 +1,17 @@
+.btn-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-items: center;
+}
+
+.btn {
+    background-color: #44c;
+    color: #eee;
+    font-size: 1em;
+    padding: 0.5vh 3vw;
+    margin: 1vh 3vw;
+    border: 2px outset #333;
+    border-radius: 16px;
+}

@@ -48,6 +48,14 @@
     box-shadow: 3px 3px 2px #333;
 }
 
+.card-footer span i:hover {
+    text-shadow: 4px 4px 2px #333;
+}
+
+.card-footer span i:active {
+    color: #333;
+}
+
 @media only screen and (max-width: 600px) {
     .card-image {
         display: block;

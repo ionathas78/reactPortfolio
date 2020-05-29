@@ -4,8 +4,9 @@ import "./Gallery.css";
 function Gallery () {
 
     return (
-        <div id="Gallery">
-            <h1>Galleria</h1>
+        <div id="gallery">
+            <h1>Galeria de Sollertia</h1>
+
         </div>
     )
 }

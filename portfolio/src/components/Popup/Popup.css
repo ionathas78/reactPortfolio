@@ -1,0 +1,42 @@
+* {
+    font-size: 1em;
+}
+
+h1 {
+    font-size: 1.5em;
+}
+
+.popup-form {
+    position: fixed;
+    top: 15vh;
+    left: 15vw;
+    height: 15em;
+    width: 50vh;
+    background-color: #337;
+    border: 3px ridge #444;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.inside-border {
+    background: #cde;
+    position: absolute;
+    top: 2%;
+    left: 2%;
+    height: 96%;
+    width: 96%;
+    border: 1px solid #333;
+}
+
+.text-block {
+    text-align: center;
+    padding: 10px;
+}
+
+.btn-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+

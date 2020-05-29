@@ -1,6 +1,6 @@
 import React from "react";
 import "./AboutMe.css";
-import { Card, CardImage, CardBody, CardFooter } from "../components/Card";
+import { Card, CardImage, CardBody, CardFooter } from "../../components/Card";
 
 function AboutMe() {
 

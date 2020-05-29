@@ -21,12 +21,13 @@ function NavBar({ children }) {
  * Links inside Nav Bar
  * @param {Object} param0 path, text, key
  */
-function NavLink({ id, path, linkClass, text, key }) {
+function NavLink({ id, path, linkClass, text, onClick, key }) {
 
     return (
         <li id={id} className={(!linkClass ? "nav-link" : linkClass)} key={key}>
            <Link to={path}
                 className="nav-link"
+                onClick={onClick}
             >
                 {text}
            </Link>
