@@ -1,43 +1,37 @@
 import React from "react";
 import "./card.css";
 
-function Card({children}) {
+function Card({ style, children }) {
 
     return (
-        <div className="card">
+        <div className="card" style={style}>
             {children}
         </div>
     )
 }
 
-function CardImage({ id, imgId, imgSrc, altText, imgHeight, imgWidth }) {
+function CardImage({ id, imgId, imgSrc, altText, wrapperStyle, imgStyle, imgHeight, imgWidth }) {
 
     return (
-        <figure id={id} className="card-image">
-            <img id={imgId} src={imgSrc} alt={altText} height={imgHeight} width={imgWidth} />
+        <figure id={id} className="card-image" style={wrapperStyle}>
+            <img id={imgId} src={imgSrc} alt={altText} height={imgHeight} width={imgWidth} style={imgStyle} />
         </figure>
     )
 }
 
-function CardBody({ id, text }) {
+function CardBody({ id, style, children }) {
 
     return (
-        <section id={id} className="card-body">
-            {(!Array.isArray(text) ? 
-                    <p>{text}</p> : 
-                    text.map(line => <p>{line}</p>)        
-            )}
+        <section id={id} className="card-body" style={style}>
+            {children}
         </section>
     )
 }
 
-function CardFooter({ id, text }) {
+function CardFooter({ id, style, children }) {
     return (
-        <section id={id} className="card-footer">
-                {(!Array.isArray(text) ? 
-                        <span>{text}</span> : 
-                        text.map(line => <span>{line}</span>)        
-                )}
+        <section id={id} className="card-footer" style={style}>
+                {children}
         </section>
     )
 }

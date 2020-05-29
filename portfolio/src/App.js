@@ -5,7 +5,7 @@ import { NavBar, NavLink } from "./components/NavBar";
 import { AboutPopup } from "./components/Popup";
 import Footer from "./components/Footer";
 import AboutMe from "./pages/AboutMe";
-import Contact from "./pages/Contact";
+import Links from "./pages/Links";
 import Gallery from "./pages/Gallery";
 import NoMatch from "./pages/NoMatch";
 
@@ -27,9 +27,8 @@ function Main() {
             <span id="nav-spacer"> </span>
             <NavLink
               onClick={() => setPopupSetting("block")}
-              path=""
               text="About"
-              key={1}s
+              key={1}
             />
             <NavLink
               path="/gallery"
@@ -47,7 +46,7 @@ function Main() {
         <main>
             <Switch>
               <Route exact path="/gallery" component={Gallery} />
-              <Route exact path="/contact" component={Contact} />
+              <Route exact path="/contact" component={Links} />
               <Route exact path="/" component={AboutMe} />
               <Route path="*" component={NoMatch} />
             </Switch>
