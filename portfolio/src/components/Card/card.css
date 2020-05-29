@@ -49,6 +49,7 @@
 }
 
 .card-footer span i:hover {
+    color: #ccc;
     text-shadow: 4px 4px 2px #333;
 }
 

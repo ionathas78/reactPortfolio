@@ -1,10 +1,11 @@
-import { React } from "react";
+import React from "react";
 import { Button } from "../Button";
 import "./Popup.css";
 
-export function AboutPopup({ formTitle, children, setOpenFunction }) {
+export function AboutPopup({ formTitle, children, displaySetting, setDisplaySetting }) {
+
     return (
-        <div 
+        <div style={{ display:  displaySetting }}
             className="popup-form"
         >
             <section className="inside-border">
@@ -17,11 +18,10 @@ export function AboutPopup({ formTitle, children, setOpenFunction }) {
                     <hr />
                     <Button 
                         text="Close"
-                        onClick={setOpenFunction(false)}
+                        onClick={() => { setDisplaySetting("none") }}
                     />
                 </div>
             </section>
         </div>
     )
 }
-

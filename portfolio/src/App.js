@@ -1,4 +1,4 @@
-import { React, useState } from 'react';
+import React, { useState } from 'react';
 import "./App.css";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { NavBar, NavLink } from "./components/NavBar";
@@ -10,7 +10,7 @@ import Gallery from "./pages/Gallery";
 import NoMatch from "./pages/NoMatch";
 
 function Main() {
-  const [ aboutIsOpen, setAboutIsOpen ] = useState(false);
+  const [ popupSetting, setPopupSetting ] = useState("none");
 
   return (
     <div className="App">
@@ -26,10 +26,10 @@ function Main() {
             />
             <span id="nav-spacer"> </span>
             <NavLink
-              onClick={setAboutIsOpen(true)}
+              onClick={() => setPopupSetting("block")}
               path=""
               text="About"
-              key={1}
+              key={1}s
             />
             <NavLink
               path="/gallery"
@@ -58,12 +58,9 @@ function Main() {
             text="Copyright 2020 by Jonathan Andrews"
           />
         </footer>
-        {!aboutIsOpen ?
-          "" :
-          <AboutPopup formTitle="My React Portfolio" setOpenFunction={setAboutIsOpen}>
-              <p>&copy;2020 Jonathan Andrews</p>
-          </AboutPopup>
-        }
+        <AboutPopup formTitle="My React Portfolio" displaySetting={popupSetting} setDisplaySetting={setPopupSetting}>
+            <p>&copy;2020 Jonathan Andrews</p>
+        </AboutPopup>
       </Router>
     </div>
   );
