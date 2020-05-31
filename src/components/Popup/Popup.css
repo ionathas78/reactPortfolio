@@ -16,6 +16,7 @@ h1 {
     border: 3px ridge #444;
     border-radius: 20px;
     overflow: hidden;
+    box-shadow: 8px 8px 6px #555;
 }
 
 .inside-border {

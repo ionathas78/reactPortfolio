@@ -1,68 +1,86 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# reactPortfolio - 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## Available Scripts
+> Reactive Portfolio-ing
 
-In the project directory, you can run:
+When we finished the React segment in class, I knew I had to have a portfolio
+kitted out with React methodologies. The modular component aesthetic, the just-
+in-time rendering processing, the next-generation ES6 programming principles.
+It was all tres chic, and I wanted to show it off in my toolkit.
 
-### `npm start`
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## User Story
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+```
+AS A Web Developer 
+I WANT to show off my React skills
+SO THAT I can exhibit my work
+```
 
-### `npm test`
+```
+GIVEN THAT I have a portfolio
+WHEN I navigate through the links
+THEN I find a single-page web app
+WHEN I look at the page structure
+THEN I find just-in-time React rendering
+WHEN I look at the program structure
+THEN I find discrete React components
+```
+            
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## Graphic
+![Project Image 0](./build/images/ReactPort_AboutMe.jpg)
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Table of Contents
+* [Technologies](#Technologies)
+* [Getting Started](#Getting)
+* [Usage](#Usage)
+* [Project Status](#Project)
+* [Frequently Asked Questions](#FAQ)
+* [Questions](#Additional)
+* [Contributing](#Contributing)
+* [License](#License)
+## Technologies
+Node.js\
+React\
+react-router-dom
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## Getting Started
+```
+npm install
+```
+This is a react app, so it keeps the source files in the ./src folder and creates an optimized app folder in the ./build directory.
+If you want to build the app for deployment, use the following script:
+```
+npm run deploy
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Usage
+```
+npm start
+```
+Running this app locally starts up a server on localhost:3000, which you can hit directly for the main (AboutMe) page. The links in the Galleria page are external, so you won't be able to navigate them without an active web connection.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+![Project Usage Image 0](./build/images/ReactPort_Gallery.jpg)
+![Project Usage Image 1](./build/images/ReactPort_Links.jpg)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Project Status
+Current
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Additional Questions
+Email or DM me.
 
-## Learn More
+## Contributing
+Contact us for guidelines on submitting contributions.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## License
+This project is licensed under the The MIT License.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![User Avatar Picture](https://avatars1.githubusercontent.com/u/61706660?v=4)
+### ionathas78
 
-### Code Splitting
+This file generated on 5/31/2020 by goodReadMeGenerator, copyright 2020 Jonathan Andrews
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
