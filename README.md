@@ -56,8 +56,8 @@ If you want to build the app for deployment, use the following script:
 ```
 npm run deploy
 ```
-As a side note, in deploying this React page to GitHub-pages, I had to change all image paths from "../../images" to "./images" to reflect the deployed directory structure. To avoid breaking the desktop version of the site, I made these changes directly to the main-x.js build file in the ./build/static/js directory; however, that means I have to fix it again every time I rebuild the project. Kind of a pain... I'm wondering if I need to just put the image files into the same folder as the React component in the future to avoid this problem...
-To clarify, this wasn't an issue of the relative paths not working because I had them in a JSON config file. The image link on the AboutMe page was broken in the same way, so it was just a matter of the paths not adjusting properly when the project built.
+As a side note, in deploying this React page to GitHub-pages, I had to change all image paths from _../../images_ to _./images_ to reflect the deployed directory structure. To avoid breaking the desktop version of the site, I made these changes directly to the _main-x.js_ build file in the _./build/static/js_ directory; however, that means I have to fix it again every time I rebuild the project. Kind of a pain... I'm wondering if I need to just put the image files into the same folder as the React component in the future to avoid this problem...
+To clarify, this wasn't an issue of the relative paths not working because I had them in a JSON config file. The image link on the _AboutMe_ page was broken in the same way, so it was just a matter of the paths not adjusting properly when the project built.
 Also, in case I need to find this again later, I'll make one more note here. I was having issues getting the landing page for my single-page BrowserRouter React app to render properly on gh-pages. In order to deploy it, I had to add the following attribute to the BrowserRouter component in my _App.js_ file: **basename={process.env.PUBLIC_URL}**, thusly:
 ```
     <div className="App">
