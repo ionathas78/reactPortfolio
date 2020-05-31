@@ -44,7 +44,8 @@ THEN I find discrete React components
 ## Technologies
 Node.js\
 React\
-react-router-dom
+react-router-dom\
+gh-pages
 
 ## Getting Started
 ```
