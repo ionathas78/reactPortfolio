@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/reactPortfolio/static/css/main.ae973f3c.chunk.css",
-    "main.js": "/reactPortfolio/static/js/main.9e09acdf.chunk.js",
-    "main.js.map": "/reactPortfolio/static/js/main.9e09acdf.chunk.js.map",
-    "runtime-main.js": "/reactPortfolio/static/js/runtime-main.aca8b71c.js",
-    "runtime-main.js.map": "/reactPortfolio/static/js/runtime-main.aca8b71c.js.map",
-    "static/js/2.befed2ba.chunk.js": "/reactPortfolio/static/js/2.befed2ba.chunk.js",
-    "static/js/2.befed2ba.chunk.js.map": "/reactPortfolio/static/js/2.befed2ba.chunk.js.map",
-    "index.html": "/reactPortfolio/index.html",
-    "precache-manifest.52729710c57f20e1d536e7750650e2ba.js": "/reactPortfolio/precache-manifest.52729710c57f20e1d536e7750650e2ba.js",
-    "service-worker.js": "/reactPortfolio/service-worker.js",
-    "static/css/main.ae973f3c.chunk.css.map": "/reactPortfolio/static/css/main.ae973f3c.chunk.css.map",
-    "static/js/2.befed2ba.chunk.js.LICENSE.txt": "/reactPortfolio/static/js/2.befed2ba.chunk.js.LICENSE.txt"
+    "main.css": "/ionathas78.github.io/reactPortfolio/static/css/main.ae973f3c.chunk.css",
+    "main.js": "/ionathas78.github.io/reactPortfolio/static/js/main.d378a282.chunk.js",
+    "main.js.map": "/ionathas78.github.io/reactPortfolio/static/js/main.d378a282.chunk.js.map",
+    "runtime-main.js": "/ionathas78.github.io/reactPortfolio/static/js/runtime-main.202abb75.js",
+    "runtime-main.js.map": "/ionathas78.github.io/reactPortfolio/static/js/runtime-main.202abb75.js.map",
+    "static/js/2.befed2ba.chunk.js": "/ionathas78.github.io/reactPortfolio/static/js/2.befed2ba.chunk.js",
+    "static/js/2.befed2ba.chunk.js.map": "/ionathas78.github.io/reactPortfolio/static/js/2.befed2ba.chunk.js.map",
+    "index.html": "/ionathas78.github.io/reactPortfolio/index.html",
+    "precache-manifest.eaa4ab8585e1a333a0a4b3fbe36d3143.js": "/ionathas78.github.io/reactPortfolio/precache-manifest.eaa4ab8585e1a333a0a4b3fbe36d3143.js",
+    "service-worker.js": "/ionathas78.github.io/reactPortfolio/service-worker.js",
+    "static/css/main.ae973f3c.chunk.css.map": "/ionathas78.github.io/reactPortfolio/static/css/main.ae973f3c.chunk.css.map",
+    "static/js/2.befed2ba.chunk.js.LICENSE.txt": "/ionathas78.github.io/reactPortfolio/static/js/2.befed2ba.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.aca8b71c.js",
+    "static/js/runtime-main.202abb75.js",
     "static/js/2.befed2ba.chunk.js",
     "static/css/main.ae973f3c.chunk.css",
-    "static/js/main.9e09acdf.chunk.js"
+    "static/js/main.d378a282.chunk.js"
   ]
 }
