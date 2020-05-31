@@ -1,6 +1,6 @@
 [
     {
-        "srcImage": "../../images/DiceRollerz_Screenshot.jpg",
+        "srcImage": "../../images/DiceRollerz_ScreenShot.jpg",
         "altText": "Roleplaying Chat Web App",
         "titleText": "DiceRollerz RPG Chat",
         "captionText": "DiceRollerz RPG Chat",
@@ -35,7 +35,7 @@
         "hRef": "https://docs.google.com/document/d/14uelMrD1PDT1i4SadUMneQPYCrNZ7CeRN0aeLD-JX-4/edit?usp=sharing"
     },
     {
-        "srcImage": "../../images/codeQuiz_Screenshot.jpg",
+        "srcImage": "../../images/codeQuiz_ScreenShot.jpg",
         "altText": "Code Quiz",
         "titleText": "Quiz Game",
         "captionText": "codeQuiz",
