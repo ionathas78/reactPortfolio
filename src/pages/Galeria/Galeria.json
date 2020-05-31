@@ -1,0 +1,72 @@
+[
+    {
+        "srcImage": "../../images/DiceRollerz_Screenshot.jpg",
+        "altText": "Roleplaying Chat Web App",
+        "titleText": "DiceRollerz RPG Chat",
+        "captionText": "DiceRollerz RPG Chat",
+        "hRef": "https://dice-rollerz.herokuapp.com/"
+    },
+    {
+        "srcImage": "../../images/empDir_ScreenShot.jpg",
+        "altText": "Employee Directory",
+        "titleText": "Sortable Employee Directory",
+        "captionText": "empDir React Employee Directory",
+        "hRef": "https://github.com/ionathas78/empDir"
+    },
+    {
+        "srcImage": "../../images/gBookScanner_ScreenShot.jpg",
+        "altText": "Google Books Bookmark Tool",
+        "titleText": "Book Scanner and Bookmarker",
+        "captionText": "Google Books Scanner & Bookmarker",
+        "hRef": "https://github.com/ionathas78/gBooksScanner"
+    },
+    {
+        "srcImage": "../../images/stayWell_dashboard_screen.jpg",
+        "altText": "Stay Home and Stay Well Recipe and Fitness Reference",
+        "titleText": "Recipe and Fitness Tool",
+        "captionText": "Group Project: stayWell Recipe & Fitness Reference",
+        "hRef": "https://team1-project2.herokuapp.com/"
+    },
+    {
+        "srcImage": "../../images/reverse_engineer_document.jpg",
+        "altText": "Reverse Engineering Walkthrough",
+        "titleText": "Technical Software Document",
+        "captionText": "Reverse Engineering Certification",
+        "hRef": "https://docs.google.com/document/d/14uelMrD1PDT1i4SadUMneQPYCrNZ7CeRN0aeLD-JX-4/edit?usp=sharing"
+    },
+    {
+        "srcImage": "../../images/codeQuiz_Screenshot.jpg",
+        "altText": "Code Quiz",
+        "titleText": "Quiz Game",
+        "captionText": "codeQuiz",
+        "hRef": "https://ionathas78.github.io/200324-CodeQuiz/"
+    },
+    {
+        "srcImage": "../../images/underTaker_Usage_Screenshot.jpg",
+        "altText": "underTaker Note Taking Tool",
+        "titleText": "Note Taker",
+        "captionText": "underTaker Notes",
+        "hRef": "https://github.com/ionathas78/underTaker"
+    },
+    {
+        "srcImage": "../../images/MyWeatherBug_ScreenShot.jpg",
+        "altText": "Trip Information Panel",
+        "titleText": "Weather, Flight, and Webcam Dashboard",
+        "captionText": "Group Project: MyWeatherBug Travel Planner",
+        "hRef": "https://ionathas78.github.io/LiveTravelInfo/index.html"
+    },
+    {
+        "srcImage": "../../images/goodReadMe_ScreenShot.jpg",
+        "altText": "Good Read Me Document Spawner",
+        "titleText": "Read Me Generator",
+        "captionText": "goodReadMe Node app",
+        "hRef": "https://ionathas78.github.io/goodReadMeGenerator"
+    },
+    {
+        "srcImage": "../../images/dayPlanner_ScreenShot.jpg",
+        "altText": "Local Storage Day Planner",
+        "titleText": "Day Planning Tool",
+        "captionText": "dayPlanner LocalStorage Tool",
+        "hRef": "https://ionathas78.github.io/dayPlanner-200326/"
+    }
+]

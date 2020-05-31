@@ -1,6 +1,6 @@
 .gallery {
     position: fixed;
-    top: 4vh;
+    top: 6vh;
     left: 0;
     background-color: #77e;
     height: 92vh;
@@ -12,3 +12,4 @@
     text-decoration: underline;
     text-shadow: 1px 1px 1px #669;
 }
+

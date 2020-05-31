@@ -12,3 +12,7 @@
     text-decoration: underline;
     text-shadow: 1px 1px 1px #669;
 }
+
+.links .card {
+    background-color: #888;
+}

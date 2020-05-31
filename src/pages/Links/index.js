@@ -16,12 +16,13 @@ function Links () {
 
     return (
         <div className="links">
+            <br />
             <h1>Links</h1>
             
             <Card style={cardStyle}>
                 <CardBody style={cardBodyStyle}>
                     <div>
-                        <i class="fas fa-envelope-open"></i>  
+                        <i className="fas fa-envelope-open"></i>  
                         <span style={{margin: "0 0.5em"}}>Email:</span>
                         <div>
                             <a 
@@ -34,7 +35,7 @@ function Links () {
                         </div>
                     </div>
                     <div>
-                        <i class="fab fa-linkedin-in"></i>  
+                        <i className="fab fa-linkedin-in"></i>  
                         <span style={{margin: "0 0.5em"}}>LinkedIn:</span>
                         <div>
                             <a 
@@ -47,7 +48,7 @@ function Links () {
                         </div>
                     </div>
                     <div>
-                        <i class="fab fa-github"></i>  
+                        <i className="fab fa-github"></i>  
                         <span style={{margin: "0 0.5em"}}>GitHub:</span>
                         <div>
                             <a 
@@ -60,7 +61,7 @@ function Links () {
                         </div>
                     </div>
                     <div>
-                        <i class="fab fa-itch-io"></i>  
+                        <i className="fab fa-itch-io"></i>  
                         <span style={{margin: "0 0.5em"}}>Itch.io:</span>
                         <div>
                             <a 
@@ -73,7 +74,7 @@ function Links () {
                         </div>
                     </div>
                     <div>
-                        <i class="fas fa-blog"></i>  
+                        <i className="fas fa-blog"></i>  
                         <span style={{margin: "0 0.5em"}}>Blog:</span>
                         <div>
                             <a 
@@ -86,7 +87,7 @@ function Links () {
                         </div>
                     </div>
                     <div>
-                        <i class="fas fa-blog"></i>  
+                        <i className="fas fa-blog"></i>  
                         <span style={{margin: "0 0.5em"}}>Blog:</span>
                         <div>
                             <a 
@@ -99,7 +100,7 @@ function Links () {
                         </div>
                     </div>
                     <div>
-                        <i class="fas fa-dice-d6"></i>  
+                        <i className="fas fa-dice-d6"></i>  
                         <span style={{margin: "0 0.5em"}}>Game:</span>
                         <div>
                             <a 
