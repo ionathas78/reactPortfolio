@@ -37,6 +37,7 @@ function AboutMe() {
                             title="GitHub Profile" 
                             href="https://github.com/ionathas78" 
                             target="_blank"
+                            rel="noopener noreferrer" 
                         >   
                             <i className="fab fa-github-square" aria-hidden="true"></i>
                         </a>
@@ -46,6 +47,7 @@ function AboutMe() {
                             title="Resume" 
                             href="Assets/Images/jonathan_andrews_resume.pdf" 
                             target="_blank"
+                            rel="noopener noreferrer" 
                         >
                             <i className="far fa-file-pdf" aria-hidden="true"></i>
                         </a>
@@ -55,6 +57,7 @@ function AboutMe() {
                             title="LinkedIn Profile" 
                             href="https://www.linkedin.com/in/jonathan-andrews-24299b6/" 
                             target="_blank"
+                            rel="noopener noreferrer" 
                         >   
                             <i className="fab fa-linkedin" aria-hidden="true"></i>
                         </a>

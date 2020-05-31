@@ -29,6 +29,7 @@ function Links () {
                                 title="email"
                                 href="mailto:ionathas78@hotmail.com"
                                 target="_blank"
+                                rel="noopener noreferrer" 
                             >
                                 ionathas78@hotmail.com
                             </a>
@@ -42,6 +43,7 @@ function Links () {
                                 title="My LinkedIn Profile"
                                 href="https://www.linkedin.com/in/jonathan-andrews-24299b6/"
                                 target="_blank"
+                                rel="noopener noreferrer" 
                             >
                                 https://www.linkedin.com/in/jonathan-andrews-24299b6/
                         </a>
@@ -55,6 +57,7 @@ function Links () {
                                 title="Me on GitHub"
                                 href="https://github.com/ionathas78"
                                 target="_blank"
+                                rel="noopener noreferrer" 
                             >
                                 https://github.com/ionathas78
                             </a>
@@ -68,6 +71,7 @@ function Links () {
                                 title="My itch.io Profile Page"
                                 href="https://ionathas78.itch.io"
                                 target="_blank"
+                                rel="noopener noreferrer" 
                             >
                                 https://ionathas78.itch.io
                             </a>
@@ -81,6 +85,7 @@ function Links () {
                                 title="RPG Blog"
                                 href="https://www.rpghour.com/our-thoughts"
                                 target="_blank"
+                                rel="noopener noreferrer" 
                             >
                                 https://www.rpghour.com/our-thoughts
                             </a>
@@ -94,6 +99,7 @@ function Links () {
                                 title="Experimental RPG Starter Blog"
                                 href="https://www.rpghour.com/rpgminute"
                                 target="_blank"
+                                rel="noopener noreferrer" 
                             >
                                 https://www.rpghour.com/rpgminute
                             </a>
@@ -107,6 +113,7 @@ function Links () {
                                 title="My Tabletop RPG"
                                 href="https://www.keluranfabula.com"
                                 target="_blank"
+                                rel="noopener noreferrer" 
                             >
                                 https://www.keluranfabula.com
                             </a>

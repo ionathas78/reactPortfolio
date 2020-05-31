@@ -20,6 +20,7 @@ export function GalleryItem ({ id, hRef, linkTarget, imgSource, altText, titleTe
                 <a 
                     href={hRef}
                     target={linkTarget}
+                    rel={(linkTarget === /_blank/i) ? "noopener noreferrer" : ""}
                 >
                     <img
                         className="gallery-image"
