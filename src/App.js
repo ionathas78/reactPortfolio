@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import "./App.css";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { Backer } from "./components/Backer";
 import { NavBar, NavLink } from "./components/NavBar";
 import { AboutPopup } from "./components/Popup";
 import Footer from "./components/Footer";
@@ -45,6 +46,7 @@ function Main() {
         </header>
 
         <main>
+          <Backer />
             <Switch>
               <Route exact path="/gallery" component={Galeria} />
               <Route exact path="/contact" component={Links} />

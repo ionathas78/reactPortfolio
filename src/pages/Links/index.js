@@ -121,6 +121,7 @@ function Links () {
                     </div>
                     <div>
                         <i className="fab fa-patreon"></i>
+                        <span style={{margin: "0 0.5em"}}>Patreon:</span>
                         <div>
                             <a
                                 title="My Patreon Page"
