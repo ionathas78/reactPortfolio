@@ -119,6 +119,19 @@ function Links () {
                             </a>
                         </div>
                     </div>
+                    <div>
+                        <i className="fab fa-patreon"></i>
+                        <div>
+                            <a
+                                title="My Patreon Page"
+                                href="https://www.patreon.com/ionathas78?fan_landing=true"
+                                target="_blank"
+                                rel="noopener noreferrer" 
+                            >
+                                https://www.patreon.com/ionathas78
+                            </a>
+                        </div>
+                    </div>
                 </CardBody>
             </Card>
         </div>
