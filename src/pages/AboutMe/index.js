@@ -9,7 +9,7 @@ function AboutMe() {
             <Card>
                 <CardImage 
                     id="about-me-image"
-                    imgSrc="../../images/BW_with_cap_cropped.jpeg"
+                    imgSrc="./images/BW_with_cap_cropped.jpeg"
                     imgHeight="100%"
                     alt="Super Handsome Dude"
                 />

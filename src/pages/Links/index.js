@@ -4,7 +4,7 @@ import "./Links.css";
 
 function Links () {
     let cardStyle = {
-        height: "18em",
+        height: "20em",
         width: "60vw",
         top: "15vh",
         left: "20vw"
@@ -74,6 +74,20 @@ function Links () {
                                 rel="noopener noreferrer" 
                             >
                                 https://ionathas78.itch.io
+                            </a>
+                        </div>
+                    </div>
+                    <div>
+                        <i className="fab fa-amazon"></i>
+                        <span style={{margin: "0 0.5em"}}>Amazon Author Page:</span>
+                        <div>
+                            <a
+                                title="My Amazon Author Page"
+                                href="https://www.amazon.com/author/ionathas78"
+                                target="_blank"
+                                rel="noopener noreferrer" 
+                            >
+                                https://www.amazon.com/author/ionathas78
                             </a>
                         </div>
                     </div>
