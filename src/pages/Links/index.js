@@ -4,8 +4,8 @@ import "./Links.css";
 
 function Links () {
     let cardStyle = {
-        height: "20em",
-        width: "65vw",
+        height: "25em",
+        width: "60vw",
         top: "15vh",
         left: "20vw"
     }
