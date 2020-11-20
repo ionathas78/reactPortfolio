@@ -41,11 +41,25 @@ function Links () {
                         <div>
                             <a 
                                 title="My LinkedIn Profile"
-                                href="https://www.linkedin.com/in/jonathan-andrews-24299b6/"
+                                href="https://www.linkedin.com/in/ionathas78/"
                                 target="_blank"
                                 rel="noopener noreferrer" 
                             >
-                                https://www.linkedin.com/in/jonathan-andrews-24299b6/
+                                https://www.linkedin.com/in/ionathas78/
+                        </a>
+                        </div>
+                    </div>
+                    <div>
+                        <i className="fab fa-twitter"></i>  
+                        <span style={{margin: "0 0.5em"}}>Twitter:</span>
+                        <div>
+                            <a 
+                                title="My Twitter Handle"
+                                href="https://www.twitter.com/ionathas78/"
+                                target="_blank"
+                                rel="noopener noreferrer" 
+                            >
+                                https://www.twitter.com/ionathas78/
                         </a>
                         </div>
                     </div>
@@ -96,12 +110,12 @@ function Links () {
                         <span style={{margin: "0 0.5em"}}>Blog:</span>
                         <div>
                             <a 
-                                title="RPG Blog"
-                                href="https://www.rpghour.com/our-thoughts"
+                                title="RPMyuz RPG Blog"
+                                href="https://www.keluranfabula.com/blog"
                                 target="_blank"
                                 rel="noopener noreferrer" 
                             >
-                                https://www.rpghour.com/our-thoughts
+                                https://www.keluranfabula.com/blog
                             </a>
                         </div>
                     </div>
@@ -110,12 +124,12 @@ function Links () {
                         <span style={{margin: "0 0.5em"}}>Blog:</span>
                         <div>
                             <a 
-                                title="Experimental RPG Starter Blog"
-                                href="https://www.rpghour.com/rpgminute"
+                                title="FlashRPG Experimental RPG Starter Blog"
+                                href="https://www.keluranfabula.com/flash-rpg"
                                 target="_blank"
                                 rel="noopener noreferrer" 
                             >
-                                https://www.rpghour.com/rpgminute
+                                https://www.keluranfabula.com/flash-rpg
                             </a>
                         </div>
                     </div>
